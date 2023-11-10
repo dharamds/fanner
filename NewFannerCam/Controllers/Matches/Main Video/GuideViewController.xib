@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GuideViewController" customModule="NewFannerCam" customModuleProvider="target">
+            <connections>
+                <outlet property="Streamimage1" destination="6bO-2s-Tyx" id="atx-Hk-4zS"/>
+                <outlet property="Streamimage2" destination="VOf-c7-VE2" id="iQO-vo-o5C"/>
+                <outlet property="btnClose" destination="XQS-p8-d35" id="kIM-jC-ONc"/>
+                <outlet property="contentView" destination="cho-Fw-T8Z" id="TJE-ft-MX9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cho-Fw-T8Z">
+                    <rect key="frame" x="20" y="20" width="696" height="374"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wb8-nS-RQz">
+                            <rect key="frame" x="0.0" y="0.0" width="696" height="374"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEZ-sg-qZ9">
+                                    <rect key="frame" x="0.0" y="0.0" width="696" height="3080"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RTMP" translatesAutoresizingMaskIntoConstraints="NO" id="Uga-ta-b2J">
+                                            <rect key="frame" x="298" y="20" width="100" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="100" id="588-Tl-Z0L"/>
+                                                <constraint firstAttribute="height" constant="100" id="N2X-YG-usG"/>
+                                            </constraints>
+                                        </imageView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZh-tu-y27">
+                                            <rect key="frame" x="10" y="135" width="676" height="130"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign up to get Full-Featured Free 7-Day Trail" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQR-GD-vBM">
+                                                    <rect key="frame" x="10" y="14.999999999999998" width="656" height="19.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restream is the best way to live stream to YouTube , Twitch , Facebook and 30+ streaming sites at once" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATj-7s-iA7">
+                                                    <rect key="frame" x="10" y="54.333333333333343" width="656" height="60"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="o2k-3o-HWE"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="HQR-GD-vBM" firstAttribute="leading" secondItem="bZh-tu-y27" secondAttribute="leading" constant="10" id="XGb-0u-Cja"/>
+                                                <constraint firstItem="ATj-7s-iA7" firstAttribute="leading" secondItem="bZh-tu-y27" secondAttribute="leading" constant="10" id="YuW-tN-b6I"/>
+                                                <constraint firstItem="ATj-7s-iA7" firstAttribute="top" secondItem="HQR-GD-vBM" secondAttribute="bottom" constant="20" id="hLO-jl-Nwu"/>
+                                                <constraint firstItem="HQR-GD-vBM" firstAttribute="top" secondItem="bZh-tu-y27" secondAttribute="top" constant="15" id="iI0-rC-Bxh"/>
+                                                <constraint firstAttribute="height" constant="130" id="ntA-ok-Nlj"/>
+                                                <constraint firstAttribute="trailing" secondItem="ATj-7s-iA7" secondAttribute="trailing" constant="10" id="xfQ-eM-sbh"/>
+                                                <constraint firstAttribute="trailing" secondItem="HQR-GD-vBM" secondAttribute="trailing" constant="10" id="zXV-lt-dHO"/>
+                                            </constraints>
+                                        </view>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sHx-Tb-qdA">
+                                            <rect key="frame" x="10" y="280" width="676" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="BJO-9C-Wuf"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Q1. How to get stream namwe/key of YouTube Live?">
+                                                <color key="titleColor" systemColor="systemBlueColor"/>
+                                            </state>
+                                        </button>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1c7-eV-tdy">
+                                            <rect key="frame" x="10" y="340" width="676" height="661"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHQ-9v-j80">
+                                                    <rect key="frame" x="10" y="10" width="60" height="25"/>
+                                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="60" id="3k5-zo-khv"/>
+                                                        <constraint firstAttribute="height" constant="25" id="Pk4-eo-V4E"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Open YouTube channel dashboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzP-AV-21R">
+                                                    <rect key="frame" x="20" y="50" width="636" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="3px-bo-kGo"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaJ-u9-0MX">
+                                                    <rect key="frame" x="20" y="75" width="636" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="cnM-wh-S4J"/>
+                                                    </constraints>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="https://studio.youtube.com/"/>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Press Go Live button " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cah-Xo-d6M">
+                                                    <rect key="frame" x="20" y="105" width="636" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="25" id="sdB-rG-E3M"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. Input stream information -&gt; Create Stream -&gt; Stream settings -&gt;  Stream Key" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3E-rc-DWD">
+                                                    <rect key="frame" x="20" y="135" width="636" height="41"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="41" id="30y-da-dvy"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create_stream" translatesAutoresizingMaskIntoConstraints="NO" id="6bO-2s-Tyx">
+                                                    <rect key="frame" x="20" y="191" width="636" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="200" id="9rk-cR-RRm"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get stream key then put to RTMP Live Streaming" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qqd-ge-Urb">
+                                                    <rect key="frame" x="20" y="401" width="636" height="41"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="41" id="E0Q-J5-yar"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="get_stream_key" translatesAutoresizingMaskIntoConstraints="NO" id="VOf-c7-VE2">
+                                                    <rect key="frame" x="20" y="452" width="636" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="200" id="UDC-Do-6vJ"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="VOf-c7-VE2" firstAttribute="leading" secondItem="1c7-eV-tdy" secondAttribute="leading" constant="20" id="1q8-cb-tsO"/>
+                                                <constraint firstAttribute="trailing" secondItem="rzP-AV-21R" secondAttribute="trailing" constant="20" id="5uq-IH-n7B"/>
+                                                <constraint firstAttribute="trailing" secondItem="Cah-Xo-d6M" secondAttribute="trailing" constant="20" id="8l0-dX-Ykg"/>
+                                                <constraint firstAttribute="trailing" secondItem="qqd-ge-Urb" secondAttribute="trailing" constant="20" id="AXE-70-pem"/>
+                                                <constraint firstItem="b3E-rc-DWD" firstAttribute="top" secondItem="Cah-Xo-d6M" secondAttribute="bottom" constant="5" id="As0-LN-zId"/>
+                                                <constraint firstItem="rzP-AV-21R" firstAttribute="leading" secondItem="1c7-eV-tdy" secondAttribute="leading" constant="20" id="AxN-2c-QdX"/>
+                                                <constraint firstItem="kHQ-9v-j80" firstAttribute="leading" secondItem="1c7-eV-tdy" secondAttribute="leading" constant="10" id="Bl6-Ls-5ku"/>
+                                                <constraint firstItem="6bO-2s-Tyx" firstAttribute="top" secondItem="b3E-rc-DWD" secondAttribute="bottom" constant="15" id="CdV-0C-IiY"/>
+                                                <constraint firstItem="b3E-rc-DWD" firstAttribute="leading" secondItem="1c7-eV-tdy" secondAttribute="leading" constant="20" id="GQy-uf-cG0"/>
+                                                <constraint firstItem="qqd-ge-Urb" firstAttribute="leading" secondItem="1c7-eV-tdy" secondAttribute="leading" constant="20" id="IH5-nj-8KQ"/>
+                                                <constraint firstItem="kaJ-u9-0MX" firstAttribute="leading" secondItem="1c7-eV-tdy" secondAttribute="leading" constant="20" id="NLt-Rd-VRh"/>
+                                                <constraint firstAttribute="trailing" secondItem="kaJ-u9-0MX" secondAttribute="trailing" constant="20" id="RUD-8g-tdF"/>
+                                                <constraint firstAttribute="trailing" secondItem="VOf-c7-VE2" secondAttribute="trailing" constant="20" id="Toe-6b-oJf"/>
+                                                <constraint firstItem="Cah-Xo-d6M" firstAttribute="top" secondItem="kaJ-u9-0MX" secondAttribute="bottom" constant="10" id="Wr0-nc-hhu"/>
+                                                <constraint firstItem="rzP-AV-21R" firstAttribute="top" secondItem="kHQ-9v-j80" secondAttribute="bottom" constant="15" id="Wtu-L6-8el"/>
+                                                <constraint firstItem="6bO-2s-Tyx" firstAttribute="leading" secondItem="1c7-eV-tdy" secondAttribute="leading" constant="20" id="bFr-2v-6vu"/>
+                                                <constraint firstAttribute="height" constant="661" id="e3x-oZ-bOe"/>
+                                                <constraint firstItem="kHQ-9v-j80" firstAttribute="top" secondItem="1c7-eV-tdy" secondAttribute="top" constant="10" id="f8a-0y-2ib"/>
+                                                <constraint firstAttribute="trailing" secondItem="6bO-2s-Tyx" secondAttribute="trailing" constant="20" id="jf2-Ag-pI1"/>
+                                                <constraint firstAttribute="trailing" secondItem="b3E-rc-DWD" secondAttribute="trailing" constant="20" id="kf5-8v-7wp"/>
+                                                <constraint firstItem="qqd-ge-Urb" firstAttribute="top" secondItem="6bO-2s-Tyx" secondAttribute="bottom" constant="10" id="kns-or-PRY"/>
+                                                <constraint firstItem="kaJ-u9-0MX" firstAttribute="top" secondItem="rzP-AV-21R" secondAttribute="bottom" constant="5" id="n7T-Lj-kDF"/>
+                                                <constraint firstItem="Cah-Xo-d6M" firstAttribute="leading" secondItem="1c7-eV-tdy" secondAttribute="leading" constant="20" id="p2V-k3-pkZ"/>
+                                                <constraint firstItem="VOf-c7-VE2" firstAttribute="top" secondItem="qqd-ge-Urb" secondAttribute="bottom" constant="10" id="tDI-Y0-tyW"/>
+                                            </constraints>
+                                        </view>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6S-Ek-KLX">
+                                            <rect key="frame" x="10" y="1011" width="676" height="32"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Q2. how to Live Stream to Facebook , Twitch , YouTube... at same time ?">
+                                                <color key="titleColor" systemColor="systemBlueColor"/>
+                                            </state>
+                                        </button>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NQ0-Y6-9Yq">
+                                            <rect key="frame" x="10" y="1053" width="676" height="1035"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pht-b5-Pmg">
+                                                    <rect key="frame" x="10" y="10" width="60" height="25"/>
+                                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="60" id="3Ko-io-B6O"/>
+                                                        <constraint firstAttribute="height" constant="25" id="vVZ-Yl-e2a"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Sign up to Restream.io and get fress $10 credit" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QjF-ed-M4p">
+                                                    <rect key="frame" x="20" y="45" width="636" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="wgz-9u-t57"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Enter Server URL &amp; Server name/key" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wV-HJ-out">
+                                                    <rect key="frame" x="20" y="95" width="636" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="25" id="l5j-q7-tGe"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQz-Ii-xsw">
+                                                    <rect key="frame" x="20" y="130" width="636" height="78"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="78" id="m0f-rO-O9z"/>
+                                                    </constraints>
+                                                    <string key="text">In the new window that open, Click "Stream" on the left side bar. Go to your Restream Dashboard and copy (command/Control  + C) your "Stream Key" </string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0041" translatesAutoresizingMaskIntoConstraints="NO" id="N84-df-NbK">
+                                                    <rect key="frame" x="20" y="218" width="636" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="200" id="2YA-Y9-CmM"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. Connect Restream to Live Now App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dD8-0E-O6R">
+                                                    <rect key="frame" x="20" y="426" width="636" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="25" id="0UU-eX-8XV"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Putr stream utl &amp; stream key you copied from restream then put to Live Now app then press go live." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Il-Gj-Ag6">
+                                                    <rect key="frame" x="20" y="459" width="636" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="LDY-oD-zNP"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0042" translatesAutoresizingMaskIntoConstraints="NO" id="F1E-nz-3gJ">
+                                                    <rect key="frame" x="20" y="509" width="636" height="500"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="500" id="mrY-5F-jJy"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="N84-df-NbK" secondAttribute="trailing" constant="20" id="5Iz-Yg-m7J"/>
+                                                <constraint firstAttribute="trailing" secondItem="zQz-Ii-xsw" secondAttribute="trailing" constant="20" id="8Gl-Ig-Ljj"/>
+                                                <constraint firstItem="N84-df-NbK" firstAttribute="leading" secondItem="NQ0-Y6-9Yq" secondAttribute="leading" constant="20" id="A3w-di-zwR"/>
+                                                <constraint firstItem="dD8-0E-O6R" firstAttribute="top" secondItem="N84-df-NbK" secondAttribute="bottom" constant="8" id="DJ8-TX-i6g"/>
+                                                <constraint firstItem="F1E-nz-3gJ" firstAttribute="leading" secondItem="NQ0-Y6-9Yq" secondAttribute="leading" constant="20" id="FHv-Nc-zSB"/>
+                                                <constraint firstItem="F1E-nz-3gJ" firstAttribute="top" secondItem="2Il-Gj-Ag6" secondAttribute="bottom" constant="10" id="GHI-WS-F3R"/>
+                                                <constraint firstItem="QjF-ed-M4p" firstAttribute="leading" secondItem="NQ0-Y6-9Yq" secondAttribute="leading" constant="20" id="HTQ-3x-idP"/>
+                                                <constraint firstItem="QjF-ed-M4p" firstAttribute="top" secondItem="Pht-b5-Pmg" secondAttribute="bottom" constant="10" id="Kru-vP-dDV"/>
+                                                <constraint firstAttribute="height" constant="1035" id="Ktk-6t-YuO"/>
+                                                <constraint firstAttribute="trailing" secondItem="2Il-Gj-Ag6" secondAttribute="trailing" constant="20" id="L7X-pn-ncV"/>
+                                                <constraint firstItem="zQz-Ii-xsw" firstAttribute="top" secondItem="9wV-HJ-out" secondAttribute="bottom" constant="10" id="Oco-K5-ieL"/>
+                                                <constraint firstItem="9wV-HJ-out" firstAttribute="top" secondItem="QjF-ed-M4p" secondAttribute="bottom" constant="10" id="Qq1-SV-d7X"/>
+                                                <constraint firstItem="Pht-b5-Pmg" firstAttribute="leading" secondItem="NQ0-Y6-9Yq" secondAttribute="leading" constant="10" id="ZVt-IA-zWg"/>
+                                                <constraint firstItem="9wV-HJ-out" firstAttribute="leading" secondItem="NQ0-Y6-9Yq" secondAttribute="leading" constant="20" id="bSx-BL-55j"/>
+                                                <constraint firstItem="2Il-Gj-Ag6" firstAttribute="leading" secondItem="NQ0-Y6-9Yq" secondAttribute="leading" constant="20" id="bqj-rv-k60"/>
+                                                <constraint firstAttribute="trailing" secondItem="F1E-nz-3gJ" secondAttribute="trailing" constant="20" id="byr-sS-qo6"/>
+                                                <constraint firstAttribute="trailing" secondItem="QjF-ed-M4p" secondAttribute="trailing" constant="20" id="elM-1e-Q7u"/>
+                                                <constraint firstAttribute="trailing" secondItem="dD8-0E-O6R" secondAttribute="trailing" constant="20" id="fsH-OV-RJY"/>
+                                                <constraint firstItem="dD8-0E-O6R" firstAttribute="leading" secondItem="NQ0-Y6-9Yq" secondAttribute="leading" constant="20" id="lkh-d1-hvp"/>
+                                                <constraint firstAttribute="trailing" secondItem="9wV-HJ-out" secondAttribute="trailing" constant="20" id="mi7-Mz-omb"/>
+                                                <constraint firstItem="2Il-Gj-Ag6" firstAttribute="top" secondItem="dD8-0E-O6R" secondAttribute="bottom" constant="8" id="oJR-0l-16g"/>
+                                                <constraint firstItem="zQz-Ii-xsw" firstAttribute="leading" secondItem="NQ0-Y6-9Yq" secondAttribute="leading" constant="20" id="szb-nh-LN5"/>
+                                                <constraint firstItem="Pht-b5-Pmg" firstAttribute="top" secondItem="NQ0-Y6-9Yq" secondAttribute="top" constant="10" id="x0O-Wa-nHb"/>
+                                                <constraint firstItem="N84-df-NbK" firstAttribute="top" secondItem="zQz-Ii-xsw" secondAttribute="bottom" constant="10" id="xAs-a1-92W"/>
+                                            </constraints>
+                                        </view>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUA-XO-Yaa">
+                                            <rect key="frame" x="10" y="2098" width="676" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="EfB-Gr-SrD"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Q3. How to get stream name/key of Facebook Live ?">
+                                                <color key="titleColor" systemColor="systemBlueColor"/>
+                                            </state>
+                                        </button>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fvO-ZP-Oni">
+                                            <rect key="frame" x="10" y="2158" width="676" height="830"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKZ-VL-cB6">
+                                                    <rect key="frame" x="10" y="10" width="60" height="25"/>
+                                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="60" id="B5K-W6-7nm"/>
+                                                        <constraint firstAttribute="height" constant="25" id="uRK-Ei-DPS"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. On your Facebook profile or page you manage, click on Live Video." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="suJ-Uf-SPX">
+                                                    <rect key="frame" x="20" y="45" width="636" height="41"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="41" id="cgG-6e-EVU"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0043" translatesAutoresizingMaskIntoConstraints="NO" id="4P9-iS-40g">
+                                                    <rect key="frame" x="20" y="96" width="636" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="200" id="qWk-Sm-IBW"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. When the Live Video window shows up , click on use Stream key." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjR-Q4-ItS">
+                                                    <rect key="frame" x="20" y="306" width="636" height="41"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="41" id="y5m-U2-6Db"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0045" translatesAutoresizingMaskIntoConstraints="NO" id="y4V-ps-nXU">
+                                                    <rect key="frame" x="20" y="357" width="636" height="100"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="100" id="ify-63-URU"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. You'll be shown the information you will need to enter when setting up custom RTMP ." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EqV-Do-Oue">
+                                                    <rect key="frame" x="20" y="467" width="636" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="ylT-pa-aFe"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Stream URL will go to the RTMP URL field on RTMP Live" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Il-up-ac8">
+                                                    <rect key="frame" x="20" y="512" width="636" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="dci-tt-ySd"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please make sure that you keep your Stream Key private." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNb-tp-cP3">
+                                                    <rect key="frame" x="20" y="557" width="636" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="oJ9-af-zeK"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0044" translatesAutoresizingMaskIntoConstraints="NO" id="lh2-FR-w3P">
+                                                    <rect key="frame" x="20" y="607" width="636" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="200" id="3Pp-3a-0iR"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="YNb-tp-cP3" firstAttribute="top" secondItem="0Il-up-ac8" secondAttribute="bottom" constant="5" id="0cO-1q-ObI"/>
+                                                <constraint firstItem="YNb-tp-cP3" firstAttribute="leading" secondItem="fvO-ZP-Oni" secondAttribute="leading" constant="20" id="110-PT-QWj"/>
+                                                <constraint firstAttribute="trailing" secondItem="lh2-FR-w3P" secondAttribute="trailing" constant="20" id="3BX-LM-XlP"/>
+                                                <constraint firstAttribute="trailing" secondItem="NjR-Q4-ItS" secondAttribute="trailing" constant="20" id="4Mt-dD-HQy"/>
+                                                <constraint firstAttribute="trailing" secondItem="0Il-up-ac8" secondAttribute="trailing" constant="20" id="BSF-qQ-3yM"/>
+                                                <constraint firstAttribute="height" constant="830" id="EQE-d0-FwU"/>
+                                                <constraint firstItem="y4V-ps-nXU" firstAttribute="top" secondItem="NjR-Q4-ItS" secondAttribute="bottom" constant="10" id="FAo-WG-P4W"/>
+                                                <constraint firstItem="lh2-FR-w3P" firstAttribute="top" secondItem="YNb-tp-cP3" secondAttribute="bottom" constant="10" id="GSz-g5-FdE"/>
+                                                <constraint firstAttribute="trailing" secondItem="y4V-ps-nXU" secondAttribute="trailing" constant="20" id="MPk-C8-2a8"/>
+                                                <constraint firstAttribute="trailing" secondItem="EqV-Do-Oue" secondAttribute="trailing" constant="20" id="Mss-Ro-iQs"/>
+                                                <constraint firstItem="4P9-iS-40g" firstAttribute="top" secondItem="suJ-Uf-SPX" secondAttribute="bottom" constant="10" id="Obt-RH-bMk"/>
+                                                <constraint firstItem="EqV-Do-Oue" firstAttribute="top" secondItem="y4V-ps-nXU" secondAttribute="bottom" constant="10" id="SpG-PD-0ff"/>
+                                                <constraint firstItem="lh2-FR-w3P" firstAttribute="leading" secondItem="fvO-ZP-Oni" secondAttribute="leading" constant="20" id="Ul3-Z1-HpZ"/>
+                                                <constraint firstItem="y4V-ps-nXU" firstAttribute="leading" secondItem="fvO-ZP-Oni" secondAttribute="leading" constant="20" id="Vrx-fN-19N"/>
+                                                <constraint firstItem="EqV-Do-Oue" firstAttribute="leading" secondItem="fvO-ZP-Oni" secondAttribute="leading" constant="20" id="X9g-26-O4V"/>
+                                                <constraint firstItem="0Il-up-ac8" firstAttribute="top" secondItem="EqV-Do-Oue" secondAttribute="bottom" constant="5" id="ZQS-IE-fA0"/>
+                                                <constraint firstItem="NjR-Q4-ItS" firstAttribute="top" secondItem="4P9-iS-40g" secondAttribute="bottom" constant="10" id="c0u-Of-exc"/>
+                                                <constraint firstItem="suJ-Uf-SPX" firstAttribute="top" secondItem="fKZ-VL-cB6" secondAttribute="bottom" constant="10" id="eg7-hG-wHD"/>
+                                                <constraint firstItem="0Il-up-ac8" firstAttribute="leading" secondItem="fvO-ZP-Oni" secondAttribute="leading" constant="20" id="ieH-Bx-hDw"/>
+                                                <constraint firstAttribute="trailing" secondItem="4P9-iS-40g" secondAttribute="trailing" constant="20" id="ilu-pB-afy"/>
+                                                <constraint firstItem="NjR-Q4-ItS" firstAttribute="leading" secondItem="fvO-ZP-Oni" secondAttribute="leading" constant="20" id="j0M-OR-fKH"/>
+                                                <constraint firstItem="4P9-iS-40g" firstAttribute="leading" secondItem="fvO-ZP-Oni" secondAttribute="leading" constant="20" id="k13-xE-YIG"/>
+                                                <constraint firstItem="fKZ-VL-cB6" firstAttribute="leading" secondItem="fvO-ZP-Oni" secondAttribute="leading" constant="10" id="mgR-bl-Beo"/>
+                                                <constraint firstItem="fKZ-VL-cB6" firstAttribute="top" secondItem="fvO-ZP-Oni" secondAttribute="top" constant="10" id="qpx-Ht-CcQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="suJ-Uf-SPX" secondAttribute="trailing" constant="20" id="s6A-WT-D5o"/>
+                                                <constraint firstAttribute="trailing" secondItem="YNb-tp-cP3" secondAttribute="trailing" constant="20" id="uQV-ij-9b8"/>
+                                                <constraint firstItem="suJ-Uf-SPX" firstAttribute="leading" secondItem="fvO-ZP-Oni" secondAttribute="leading" constant="20" id="uUM-e1-i5X"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© RTMP Live Streaming. All rights reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rA-Hl-WHr">
+                                            <rect key="frame" x="10" y="3008" width="676" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="25" id="3k5-zl-DqU"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="1c7-eV-tdy" firstAttribute="leading" secondItem="lEZ-sg-qZ9" secondAttribute="leading" constant="10" id="2o0-mu-Z99"/>
+                                        <constraint firstItem="x6S-Ek-KLX" firstAttribute="top" secondItem="1c7-eV-tdy" secondAttribute="bottom" constant="10" id="2oo-E5-7Yy"/>
+                                        <constraint firstItem="fvO-ZP-Oni" firstAttribute="top" secondItem="dUA-XO-Yaa" secondAttribute="bottom" constant="10" id="7t0-05-KwU"/>
+                                        <constraint firstAttribute="trailing" secondItem="8rA-Hl-WHr" secondAttribute="trailing" constant="10" id="9tN-mm-WK3"/>
+                                        <constraint firstAttribute="trailing" secondItem="NQ0-Y6-9Yq" secondAttribute="trailing" constant="10" id="BXV-Q9-4pO"/>
+                                        <constraint firstAttribute="trailing" secondItem="1c7-eV-tdy" secondAttribute="trailing" constant="10" id="CtE-me-awQ"/>
+                                        <constraint firstAttribute="trailing" secondItem="bZh-tu-y27" secondAttribute="trailing" constant="10" id="Dg7-vC-ed7"/>
+                                        <constraint firstItem="x6S-Ek-KLX" firstAttribute="leading" secondItem="lEZ-sg-qZ9" secondAttribute="leading" constant="10" id="Fpe-6n-NPv"/>
+                                        <constraint firstItem="Uga-ta-b2J" firstAttribute="centerX" secondItem="lEZ-sg-qZ9" secondAttribute="centerX" id="Geh-Zc-Iks"/>
+                                        <constraint firstAttribute="height" constant="3080" id="IhL-c2-E0Z"/>
+                                        <constraint firstItem="8rA-Hl-WHr" firstAttribute="top" secondItem="fvO-ZP-Oni" secondAttribute="bottom" constant="20" id="Kw1-Kd-eiM"/>
+                                        <constraint firstItem="8rA-Hl-WHr" firstAttribute="leading" secondItem="lEZ-sg-qZ9" secondAttribute="leading" constant="10" id="NGM-fo-mZ1"/>
+                                        <constraint firstAttribute="trailing" secondItem="dUA-XO-Yaa" secondAttribute="trailing" constant="10" id="NpX-0v-fvn"/>
+                                        <constraint firstItem="NQ0-Y6-9Yq" firstAttribute="leading" secondItem="lEZ-sg-qZ9" secondAttribute="leading" constant="10" id="R8i-91-Tbo"/>
+                                        <constraint firstItem="bZh-tu-y27" firstAttribute="top" secondItem="Uga-ta-b2J" secondAttribute="bottom" constant="15" id="UPz-cO-eVY"/>
+                                        <constraint firstItem="Uga-ta-b2J" firstAttribute="top" secondItem="lEZ-sg-qZ9" secondAttribute="top" constant="20" id="UcL-m4-ckr"/>
+                                        <constraint firstItem="NQ0-Y6-9Yq" firstAttribute="top" secondItem="x6S-Ek-KLX" secondAttribute="bottom" constant="10" id="WN9-o1-fN3"/>
+                                        <constraint firstAttribute="trailing" secondItem="sHx-Tb-qdA" secondAttribute="trailing" constant="10" id="YME-53-reg"/>
+                                        <constraint firstItem="bZh-tu-y27" firstAttribute="leading" secondItem="lEZ-sg-qZ9" secondAttribute="leading" constant="10" id="b0H-Rl-U61"/>
+                                        <constraint firstAttribute="trailing" secondItem="fvO-ZP-Oni" secondAttribute="trailing" constant="10" id="cc5-3j-J2z"/>
+                                        <constraint firstItem="dUA-XO-Yaa" firstAttribute="top" secondItem="NQ0-Y6-9Yq" secondAttribute="bottom" constant="10" id="cdr-mI-EVU"/>
+                                        <constraint firstItem="1c7-eV-tdy" firstAttribute="top" secondItem="sHx-Tb-qdA" secondAttribute="bottom" constant="10" id="iUb-Oa-eCC"/>
+                                        <constraint firstItem="fvO-ZP-Oni" firstAttribute="leading" secondItem="lEZ-sg-qZ9" secondAttribute="leading" constant="10" id="kbq-uD-THR"/>
+                                        <constraint firstItem="dUA-XO-Yaa" firstAttribute="leading" secondItem="lEZ-sg-qZ9" secondAttribute="leading" constant="10" id="mpU-Jk-BMW"/>
+                                        <constraint firstItem="sHx-Tb-qdA" firstAttribute="leading" secondItem="lEZ-sg-qZ9" secondAttribute="leading" constant="10" id="pja-9a-r8q"/>
+                                        <constraint firstAttribute="trailing" secondItem="x6S-Ek-KLX" secondAttribute="trailing" constant="10" id="q1N-cS-GsH"/>
+                                        <constraint firstItem="sHx-Tb-qdA" firstAttribute="leading" secondItem="lEZ-sg-qZ9" secondAttribute="leading" constant="10" id="tE5-Wu-rxN"/>
+                                        <constraint firstAttribute="trailing" secondItem="sHx-Tb-qdA" secondAttribute="trailing" constant="10" id="veS-Vn-pQF"/>
+                                        <constraint firstItem="sHx-Tb-qdA" firstAttribute="top" secondItem="bZh-tu-y27" secondAttribute="bottom" constant="15" id="wMK-ql-Bfb"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="lEZ-sg-qZ9" firstAttribute="width" secondItem="Egl-vE-1uN" secondAttribute="width" id="5Q4-ea-jLQ"/>
+                                <constraint firstItem="lEZ-sg-qZ9" firstAttribute="leading" secondItem="wb8-nS-RQz" secondAttribute="leading" id="RkP-JR-1Ib"/>
+                                <constraint firstAttribute="trailing" secondItem="lEZ-sg-qZ9" secondAttribute="trailing" id="XPG-tA-l2I"/>
+                                <constraint firstItem="lEZ-sg-qZ9" firstAttribute="top" secondItem="wb8-nS-RQz" secondAttribute="top" id="y4N-mB-hJJ"/>
+                                <constraint firstAttribute="bottom" secondItem="lEZ-sg-qZ9" secondAttribute="bottom" id="zHH-hw-A1u"/>
+                            </constraints>
+                            <viewLayoutGuide key="contentLayoutGuide" id="0mZ-wd-t8o"/>
+                            <viewLayoutGuide key="frameLayoutGuide" id="Egl-vE-1uN"/>
+                        </scrollView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQS-p8-d35">
+                            <rect key="frame" x="652" y="0.0" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="LCH-fy-Bsr"/>
+                                <constraint firstAttribute="width" constant="50" id="yFf-yP-F8e"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="ic_delete_white"/>
+                            <connections>
+                                <action selector="closeBtn:" destination="-1" eventType="touchUpInside" id="rby-KQ-csm"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="wb8-nS-RQz" secondAttribute="trailing" id="7cn-SQ-cZE"/>
+                        <constraint firstItem="wb8-nS-RQz" firstAttribute="leading" secondItem="cho-Fw-T8Z" secondAttribute="leading" id="Jd7-72-NRP"/>
+                        <constraint firstItem="XQS-p8-d35" firstAttribute="top" secondItem="cho-Fw-T8Z" secondAttribute="top" id="ZS3-WG-Ozt"/>
+                        <constraint firstItem="wb8-nS-RQz" firstAttribute="top" secondItem="cho-Fw-T8Z" secondAttribute="top" id="aYH-8g-ADm"/>
+                        <constraint firstAttribute="bottom" secondItem="wb8-nS-RQz" secondAttribute="bottom" id="cqj-fe-n7R"/>
+                        <constraint firstAttribute="trailing" secondItem="XQS-p8-d35" secondAttribute="trailing" constant="-6" id="xum-Ut-5qm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cho-Fw-T8Z" secondAttribute="trailing" constant="20" id="8sW-H7-geR"/>
+                <constraint firstItem="cho-Fw-T8Z" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="KVe-QA-tU1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="cho-Fw-T8Z" secondAttribute="bottom" constant="20" id="PKa-RP-RwB"/>
+                <constraint firstItem="cho-Fw-T8Z" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="cnl-0C-Ec9"/>
+            </constraints>
+            <point key="canvasLocation" x="-83.152173913043484" y="18.840579710144929"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="IMG_0041" width="598" height="402"/>
+        <image name="IMG_0042" width="818" height="1517"/>
+        <image name="IMG_0043" width="706" height="305"/>
+        <image name="IMG_0044" width="701" height="558"/>
+        <image name="IMG_0045" width="705" height="147"/>
+        <image name="RTMP" width="116" height="114"/>
+        <image name="create_stream" width="1460" height="853"/>
+        <image name="get_stream_key" width="1340" height="915"/>
+        <image name="ic_delete_white" width="24" height="24"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3DA8A96E-1D5E-4B9B-9B47-B5C0EB8DDC43"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC22C477-1284-4EB3-9EEC-B00CEB7E6AEB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/Controllers/Matches/Main Video/MatchesMainVideoRecordLiveVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2033"
+            endingLineNumber = "2033"
+            landmarkName = "MatchesMainVideoRecordLiveVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A6639F7-6261-4485-8970-8458AF172637"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/CONTROLLERS/Matches/Main Video/OverLayerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "segFrameRateChanged(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73A4E375-3036-43FD-9C13-110F54E5125E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/Controllers/Matches/Main Video/MatchesMainVideoRecordLiveVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1828"
+            endingLineNumber = "1828"
+            landmarkName = "converterDataToClip()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D7C0B08-3580-466F-B479-A56A5F01C06B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/CONTROLLERS/Matches/Main Video/MatchesMainVideoRecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1394"
+            endingLineNumber = "1394"
+            landmarkName = "UploadVideoToServer(_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "659CA749-DE1B-43FE-A01B-442556E2705F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/CONTROLLERS/Matches/Main Video/MatchesMainVideoRecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1389"
+            endingLineNumber = "1389"
+            landmarkName = "UploadVideoToServer(_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BCCFECE-B13B-4E10-A735-8822260E7A32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/CONTROLLERS/Matches/Main Video/MatchesMainVideoRecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1400"
+            endingLineNumber = "1400"
+            landmarkName = "UploadVideoToServer(_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65B2AA81-F6C3-4A5D-AC74-50961AFC6943"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/CONTROLLERS/Matches/Main Video/MatchesMainVideoRecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1406"
+            endingLineNumber = "1406"
+            landmarkName = "UploadVideoToServer(_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A55D7B23-2DCE-43F5-A025-174AF9337316"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/CONTROLLERS/Matches/Main Video/MatchesMainVideoRecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1517"
+            endingLineNumber = "1517"
+            landmarkName = "clipVideosForLiverecap(_:_:_:_:_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F5878A9-7809-4CC5-A253-F0E7F30B3701"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/CONTROLLERS/Matches/Main Video/MatchesMainVideoRecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1515"
+            endingLineNumber = "1515"
+            landmarkName = "clipVideosForLiverecap(_:_:_:_:_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F5878A9-7809-4CC5-A253-F0E7F30B3701 - 947eb1a52e7e9bf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.String) -&gt; () in NewFannerCam.MatchesMainVideoRecordVC.clipVideosForLiverecap(_: Swift.Bool, _: NewFannerCam.Video, _: Swift.Int, _: NewFannerCam.VideoProcess, _: Swift.Bool, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "NewFannerCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aniketbokre/Desktop/7.8.8/17%20recording%20upload/NewFannerCam/CONTROLLERS/Matches/Main%20Video/MatchesMainVideoRecordVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1515"
+                  endingLineNumber = "1515"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "0F5878A9-7809-4CC5-A253-F0E7F30B3701 - 947eb1a52e7e9bf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.String) -&gt; () in NewFannerCam.MatchesMainVideoRecordVC.clipVideosForLiverecap(_: Swift.Bool, _: NewFannerCam.Video, _: Swift.Int, _: NewFannerCam.VideoProcess, _: Swift.Bool, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "NewFannerCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aniketbokre/Desktop/7.8.8/17%20recording%20upload/NewFannerCam/CONTROLLERS/Matches/Main%20Video/MatchesMainVideoRecordVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1515"
+                  endingLineNumber = "1515"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE5763CA-C311-4122-80A2-0E63EC32D0EA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/CONTROLLERS/Matches/Main Video/MatchesMainVideoRecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1407"
+            endingLineNumber = "1407"
+            landmarkName = "UploadVideoToServer(_:_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "FE5763CA-C311-4122-80A2-0E63EC32D0EA - daece03da9e4899c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UploadVideoToServer(Foundation.URL, Swift.Bool) -&gt; ()"
+                  moduleName = "NewFannerCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aniketbokre/Desktop/7.8.8/17%20recording%20upload/NewFannerCam/CONTROLLERS/Matches/Main%20Video/MatchesMainVideoRecordVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1407"
+                  endingLineNumber = "1407"
+                  offsetFromSymbolStart = "17188">
+               </Location>
+               <Location
+                  uuid = "FE5763CA-C311-4122-80A2-0E63EC32D0EA - 7578ef1f3dfb61f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; () in UploadVideoToServer(Foundation.URL, Swift.Bool) -&gt; ()"
+                  moduleName = "NewFannerCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aniketbokre/Desktop/7.8.8/17%20recording%20upload/NewFannerCam/CONTROLLERS/Matches/Main%20Video/MatchesMainVideoRecordVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1409"
+                  endingLineNumber = "1409"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31E1A78A-09D2-40FC-B73E-904DA5F79172"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/Controllers/Matches/Main Video/MatchesMainVideoRecordLiveVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2227"
+            endingLineNumber = "2227"
+            landmarkName = "UploadVideoToServer(_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

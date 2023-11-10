@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A26D3F76-CC4D-4A67-93F0-EC1AFC27D770"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6B81B73-7113-4992-909B-20FFE89D5225"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/Controllers/Matches/Main Video/MatchesMainVideoRecordLiveVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3972"
+            endingLineNumber = "3972"
+            landmarkName = "didSaveScoreboardSetting(_:_:_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F6B81B73-7113-4992-909B-20FFE89D5225 - 38f73614b1c8c0fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewFannerCam.MatchesMainVideoRecordLiveVC.didSaveScoreboardSetting(Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "NewFannerCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prawin/Documents/bonobo%20git/Fanner-project/NewFannerCam/Controllers/Matches/Main%20Video/MatchesMainVideoRecordLiveVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3994"
+                  endingLineNumber = "3994"
+                  offsetFromSymbolStart = "3908">
+               </Location>
+               <Location
+                  uuid = "F6B81B73-7113-4992-909B-20FFE89D5225 - 38f73614b1c8c03e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewFannerCam.MatchesMainVideoRecordLiveVC.didSaveScoreboardSetting(Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "NewFannerCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prawin/Documents/bonobo%20git/Fanner-project/NewFannerCam/Controllers/Matches/Main%20Video/MatchesMainVideoRecordLiveVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3996"
+                  endingLineNumber = "3996"
+                  offsetFromSymbolStart = "7888">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C746FC3-DB3F-4387-8472-25D9A0201873"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/Controllers/Matches/Main Video/MatchesMainVideoRecordLiveVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "530"
+            endingLineNumber = "530"
+            landmarkName = "initLayout()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C746FC3-DB3F-4387-8472-25D9A0201873 - f69039193bbe762e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewFannerCam.MatchesMainVideoRecordLiveVC.initLayout() -&gt; ()"
+                  moduleName = "NewFannerCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prawin/Documents/bonobo%20git/Fanner-project/NewFannerCam/Controllers/Matches/Main%20Video/MatchesMainVideoRecordLiveVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "531"
+                  endingLineNumber = "531"
+                  offsetFromSymbolStart = "27832">
+               </Location>
+               <Location
+                  uuid = "0C746FC3-DB3F-4387-8472-25D9A0201873 - f69039193bbe762e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewFannerCam.MatchesMainVideoRecordLiveVC.initLayout() -&gt; ()"
+                  moduleName = "NewFannerCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prawin/Documents/bonobo%20git/Fanner-project/NewFannerCam/Controllers/Matches/Main%20Video/MatchesMainVideoRecordLiveVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "531"
+                  endingLineNumber = "531"
+                  offsetFromSymbolStart = "27996">
+               </Location>
+               <Location
+                  uuid = "0C746FC3-DB3F-4387-8472-25D9A0201873 - f69039193bbe762e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewFannerCam.MatchesMainVideoRecordLiveVC.initLayout() -&gt; ()"
+                  moduleName = "NewFannerCam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prawin/Documents/bonobo%20git/Fanner-project/NewFannerCam/Controllers/Matches/Main%20Video/MatchesMainVideoRecordLiveVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "531"
+                  endingLineNumber = "531"
+                  offsetFromSymbolStart = "27796">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F943B381-9BFC-4DC7-A85C-607E1396DD67"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/View/FanGenView/FanGenerationVideo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "841"
+            endingLineNumber = "841"
+            landmarkName = "timerDidChangeSwitcher(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B1422B3-6CB8-4054-838A-A0A7C1AB39ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/View/FanGenView/FanGenerationVideo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "827"
+            endingLineNumber = "827"
+            landmarkName = "timerDidChangeSwitcher(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C8D04CE-A8DC-4825-9692-E64FBBEA420C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/Controllers/Matches/Main Video/MatchesMainVideoRecordLiveVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3976"
+            endingLineNumber = "3976"
+            landmarkName = "didSaveScoreboardSetting(_:_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0066900-43D2-4CBC-82E4-3CB59BB4DA94"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/CONTROLLERS/Matches/Main Video/MatchesMainVideoRecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1249"
+            endingLineNumber = "1249"
+            landmarkName = "onToggleRecordBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C69DE72F-D687-431A-A876-837128650978"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/CONTROLLERS/Matches/Main Video/MatchesMainVideoRecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1252"
+            endingLineNumber = "1252"
+            landmarkName = "onToggleRecordBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCAE69DE-18B9-4FE2-B8CF-1FC1690FC782"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFannerCam/CONTROLLERS/Matches/Main Video/MatchesMainVideoRecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1244"
+            endingLineNumber = "1244"
+            landmarkName = "onToggleRecordBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
